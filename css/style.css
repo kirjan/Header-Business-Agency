@@ -245,3 +245,166 @@ textarea {
   }
 }
 
+/* ==========================================================================
+                     Iniciamos el CSS de la página
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:"Poppins", sans-serif;
+  color: #424241
+}
+  
+.page {
+  max-width: 1600px;
+  margin-left:  auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family:"Poppins", sans-serif;
+  background-image: url(../img/hero@2x.jpg);
+  background-position: top right;
+  background-size: 800px;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+header figure {
+  margin: 0;
+}
+header figure img {
+  width: 171px;
+}
+header figcaption{
+  display: none;
+}
+header nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 56px;
+}
+header nav ul li a {
+  list-style: none;
+  color: #424241;
+  text-decoration: none;
+  padding: 10px ;
+  transition: color 0.3s ease; /* para animación suave */
+}
+
+header nav ul li a:hover {
+  background-color: #3b3a3a;
+  color: #7fdad3; 
+}
+
+
+
+.hero {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin:0;
+  padding-top: 40px;
+}
+.hero-content {
+  font-size: 65px;
+  line-height: 65px;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.hero h1 {
+  font-size: 4.5rem;
+  line-height:5.2rem;
+  text-align: left;
+  margin: 0;
+  width: 784px; 
+}
+
+
+.hero .hero-content p {
+  font-size: 1.5rem;
+  width: 784px;
+  line-height: 2rem;
+  text-transform: none;
+  margin: 0;
+  color: #979797;
+}
+.smart {
+  color: #7fdad3;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #7fdad3;
+  color: white;
+  border: none;
+  border-radius: 0; /* Puntas cuadradas */
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: none;
+  transform: background-color 0.3s, color 0.3s;
+}
+.button:hover{
+  background-color: #424241;
+  color: #7fdad3; 
+}
+
+.hero-numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin: 0;
+  width: 700px;
+  padding: 20px 0 0 0;
+}
+
+.hero-numbers div {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.hero-numbers div span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #979797 ;
+}
+
+.categorias {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  gap:32px;
+  width: auto;
+
+}
+.categorias article {
+  background-color: white;
+  gap:32px;
+  padding: 30px;
+}
+.categorias article:hover{
+  background-color: #979797 ;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #7fdad3;
+}
+
+a:hover {
+  color: #7fdad3;
+}
+
+a:active {
+  color: #424241;
+}
